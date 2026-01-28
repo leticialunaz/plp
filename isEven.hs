@@ -1,6 +1,6 @@
 isEven :: Int -> Bool
 isEven n
-    | n `mod` 2 == 0 = True
+    | mod n 2 == 0 = True
     | otherwise = False
 
 main :: IO ()
