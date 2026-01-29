@@ -1,7 +1,7 @@
 paresEntre :: Int -> Int -> [Int]
 paresEntre a b
     | a > b = []
-    | even a = a : paresEntre (a + 1) b
+    | mod a 2 == 0 = a : paresEntre (a + 1) b
     | otherwise = paresEntre (a + 1) b
 
 main :: IO ()
