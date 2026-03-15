@@ -1,0 +1,2 @@
+dobro(X, R):- R is X*2.
+
